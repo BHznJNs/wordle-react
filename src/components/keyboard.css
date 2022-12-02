@@ -1,0 +1,24 @@
+div.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
+
+div.keyboard > div {
+    display: inline-block;
+    margin: 8px 0;
+}
+
+div.keyboard span {
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+div.keyboard span:hover {
+    background-color: aliceblue;
+}
+div.keyboard #BACK, div.keyboard #ENTER {
+    padding-left: 8px;
+    padding-right: 8px;
+}
