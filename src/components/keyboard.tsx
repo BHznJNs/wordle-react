@@ -27,7 +27,7 @@ export default function Keyboard(props: any) {
             <span>I</span>
             <span>O</span>
             <span>P</span>
-            <span id="BACK">BACK</span>
+            <span id="BACK">&lArr;</span>
         </div>
         <div>
             <span>A</span>
